@@ -7,6 +7,10 @@ header {
     background-color: #303031;
 }
 
+footer {
+    background-color: #1c1c1c;
+
+}
 
 #entetes {
     width: 1000px;
@@ -16,6 +20,12 @@ header {
     justify-content: space-around;
 }
 
+#pied_page {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .bandeau01 {
     background-color: #0096cb;
@@ -47,6 +57,7 @@ p{
 header a{
     color : #d8d8d8;
     text-decoration: none;
+    font-size: 14px;
 }
 
 header a:hover{
@@ -63,9 +74,36 @@ header p:hover{
     font-weight: bold;
     }
 
+footer a{
+    color: #d8d8d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer a:hover{
+    color: #d8d8d8;
+    font-weight: bold;
+}
+
+footer li{
+    margin: auto;
+}
+
+footer li:before{
+    content: "|";
+    color: white;
+}
+
+footer li:first-child:before{
+    content : " ";
+}
+
+footer p{
+    font-size: 12px;
+}
+
 li{
     list-style-type: none;
     display: inline;
-    font-size: 14px;
     margin: auto 15px;
 }
