@@ -13,7 +13,7 @@ footer {
 }
 
 #entetes {
-    width: 1000px;
+    width: 2000px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -29,6 +29,21 @@ footer {
 
 .bandeau01 {
     background-color: #0096cb;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.sousbandeau01 {
+    width: 2000;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colonnes01{
+    justify-items: flex-start;
+    
 }
 
 .explications {
@@ -44,6 +59,8 @@ footer {
 
 h1{
     color: white;
+    font-weight: normal;
+    font-size: 24px;
 }
 
 h3{
