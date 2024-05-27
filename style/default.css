@@ -1,0 +1,71 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+header {
+    background-color: #303031;
+}
+
+
+#entetes {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.bandeau01 {
+    background-color: #0096cb;
+}
+
+.explications {
+    background-color: #0096cb;
+}
+
+.entete {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+header a{
+    color : #d8d8d8;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #d8d8d8;
+    font-weight: bold;
+}
+
+header p{
+font-size: 14px;
+}
+
+header p:hover{
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+li{
+    list-style-type: none;
+    display: inline;
+    font-size: 14px;
+    margin: auto 15px;
+}
