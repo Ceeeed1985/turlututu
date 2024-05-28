@@ -13,7 +13,7 @@ footer {
 }
 
 #entetes {
-    width: 1000px;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -29,10 +29,70 @@ footer {
 
 .bandeau01 {
     background-color: #0096cb;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
+
+.sousbandeau01 {
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colonne01{
+
+}
+
+
+.colonne02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+}
+
 
 .explications {
     background-color: #0096cb;
+    
+}
+
+.contener_explications{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colonne03{
+    padding: 25px;
+}
+
+.colonne04{
+    padding: 25px;
+}
+
+.applications{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .entete {
@@ -44,9 +104,35 @@ footer {
 
 h1{
     color: white;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+h2{
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
 }
 
 h3{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h4{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+h3:before{
+    content:" › ";
+    font-size: 24px;
     color: white;
 }
 
@@ -106,4 +192,24 @@ li{
     list-style-type: none;
     display: inline;
     margin: auto 15px;
+}
+
+.b_type01{
+    font-size: 16px;
+    color: white;
+    background-color: orange;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+}
+
+.b_type02{
+    font-size: 16px;
+    color: white;
+    background-color: #045982;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
 }
