@@ -1,0 +1,31 @@
+.b_type01 {
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+  border: white 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 180px;
+}
+
+.b_type01:hover {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(157, 102, 0);
+}
+
+.b_type02 {
+  font-size: 16px;
+  color: white;
+  background-color: #045982;
+  border: white 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 180px;
+}
+
+.b_type02:hover {
+  font-size: 16px;
+  color: white;
+  background-color: #043d5a;
+}
